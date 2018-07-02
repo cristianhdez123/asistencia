@@ -18,6 +18,7 @@ public class horario extends javax.swing.JFrame {
      */
     public horario() {
         initComponents();
+         this.setLocationRelativeTo(null);
     }
 
     /**
@@ -87,7 +88,6 @@ public class horario extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Agency FB", 0, 18)); // NOI18N
         jLabel4.setText("Sede");
 
-        jTextField1.setText("Calle 80");
         jTextField1.setEditable(false);
 
         jLabel5.setFont(new java.awt.Font("Agency FB", 0, 18)); // NOI18N

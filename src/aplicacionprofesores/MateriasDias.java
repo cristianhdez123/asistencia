@@ -15,7 +15,9 @@ public class MateriasDias extends javax.swing.JFrame {
     mainmenu dias= new mainmenu();
     public MateriasDias() {
         initComponents();
+     this.setLocationRelativeTo(null);
     }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

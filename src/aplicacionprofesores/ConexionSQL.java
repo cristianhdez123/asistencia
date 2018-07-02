@@ -30,7 +30,7 @@ public class ConexionSQL {
         {   
             String[] datosn=new String[70];
             Class.forName("com.mysql.jdbc.Driver");
-            Connection co = DriverManager.getConnection("jdbc:mysql://localHost/gestiondefallas?user=root&password=1234");
+            Connection co = DriverManager.getConnection("jdbc:mysql://localHost/Deportes?user=root&password=1234");
             System.out.println("conectado");
             stm=co.createStatement();
             System.out.println("conectado 1");

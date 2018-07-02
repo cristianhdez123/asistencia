@@ -23,6 +23,7 @@ public class ReporteProfesores extends javax.swing.JFrame {
     {
         initComponents();
         setBounds(200,50,591,390);
+         this.setLocationRelativeTo(null);
     
     }
 
@@ -57,7 +58,7 @@ public class ReporteProfesores extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
         jButton2.setText("Docentes con más fallas");
 
-        lbldate.setText("2016-2017");
+        lbldate.setText("2017-2018");
 
         volverbtn.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
         volverbtn.setText("Volver");

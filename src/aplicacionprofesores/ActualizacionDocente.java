@@ -16,6 +16,7 @@ public class ActualizacionDocente extends javax.swing.JFrame {
     ArrayList<Profesor> profe= new ArrayList ();
     public ActualizacionDocente() {
         initComponents();
+         this.setLocationRelativeTo(null);
     }
 
     /**
@@ -101,7 +102,7 @@ public class ActualizacionDocente extends javax.swing.JFrame {
         jLabel9.setText("Jornada");
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel10.setText("Programa");
+        jLabel10.setText("Deporte");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

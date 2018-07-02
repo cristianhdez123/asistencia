@@ -27,6 +27,7 @@ public class mainmenu extends javax.swing.JFrame {
     */
     public mainmenu() {
         initComponents();
+         this.setLocationRelativeTo(null);
         
 
        

@@ -52,6 +52,7 @@ public class chek_in extends javax.swing.JFrame {
         
         initComponents();
         setBounds(200,50,744,473);
+         this.setLocationRelativeTo(null);
         
      
        
@@ -94,10 +95,10 @@ public class chek_in extends javax.swing.JFrame {
 
         tbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"Emprendimineto","Rodriguez García","Nestor Adres"},
-                {"Electiva", "Hernández Ramos", "Cesar Augusto"},
-                {"Emprendimiento", "Rojas Rodriguez","Fiorella Constanza"},
-                {"Salud","Bejarano Castillo", "Mónica Paola"}
+                {"occidente","Rodriguez García","Nestor Adres"},
+                {"occidente", "Hernández Ramos", "Cesar Augusto"},
+                {"occidente", "Rojas Rodriguez","Fiorella Constanza"},
+                {"occidente","Bejarano Castillo", "Mónica Paola"}
 
             },
             new String [] {
